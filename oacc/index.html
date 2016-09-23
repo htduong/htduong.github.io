@@ -5,7 +5,7 @@
   		<meta name="viewport" content="width=device-width,initial-scale=1.0">
   		<meta name="description" content="Ha Duong">
   		<title>Ha Duong</title>
-			<link href="https://fonts.googleapis.com/css?family=Heebo:100" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i" rel="stylesheet">
 			<link rel='shortcut icon' type='image/png' href='/favicon.png' />
 
   	</head>
@@ -26,13 +26,13 @@
     color: #ffffff;
   }
   .paragraph1 {
-  font-size: 27px;
-	font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
   }
   h1 {
-	font-size: 30px;
-	font-family: 'Heebo', sans-serif;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
 	line-height: 100%;
 	text-decoration: none;
   }
@@ -59,50 +59,68 @@
   }
 
 	.container { position:relative; padding:0 0 0 0; }
-	#sidebar {
-	position:absolute;
-	top:100px; bottom:0; left:50px;
-	width:225px;
-	background:none;
+  #header { border:0px solid #000; width:500px; height:0px;
+	margin:20px 0 20px 20px;
 	}
 
-	#header { border:0px solid #000; width:500px; height:0px;
-	margin:0 0 20px 50px;
+	#email { border:0px solid #000; width:500px; height:0px;
+	margin:-20px 0 20px 220px;
 	}
 
-	#content { border:0px solid #000; width:900px; height:500px;
-	margin:132px 0 0 300px;
+	#about { border:0px solid #000; width:500px; height:0px;
+	margin:-20px 0 20px 550px;
 	}
 
-	#footer { border:0px solid #000; width:500px; height:200px;
-	margin:10px 0 0 0;
+	#blog { border:0px solid #000; width:500px; height:0px;
+	margin:-20px 0 20px 700px;
+	}
+
+	#content { border:0px solid #000; width:70em; height:1500px;
+	margin:20px 0 0 20px;
+	overflow: auto;
+	overflow-y: hidden;
+	white-space: nowrap
+	}
+
+	img{
+		width: auto;
+		height: 650px;
+		margin: 10px 10px;
+		display: inline;
+	}
+
+	#footer { border:0px solid #000; width:100px; height:50px;
+	margin:0 0 0 20px;
 	}
 </style>
 
-<div class="container">
-	<div id="sidebar">
+	<div id="header">
 		<p class="paragraph1">
-			<u>Motion</u><br>
-			<a href="http://duongha.info/shapeshift">shape/shift</a><br>
-			<a href="http://duongha.info/ego">ego</a><br>
-			<br>
-			<u>Print</u><br>
-			<a href="http://duongha.info/bpr">Berkeley Political Review</a><br>
-			<a href="http://duongha.info/oacc">Oakland Asian Cultural Center</a><br>
-			<br>
-			<a href="http://duongha.info/contact">Contact</a><br>
-			<a href="http://duongha.tumblr.com">Blog</a>
+				<a href="http://duongha.info/">Ha Duong</a>
 		</p>
 	</div>
 
-	<div id="header">
-		<h1><br>
-			<a href="http://duongha.info/">Ha Duong</a>
-		</h1>
-	</div>
+		<div id="email">
+			<p class="paragraph1">
+				<a href="mailto:emailhaduong@gmail.com">emailhaduong@gmail.com</a>
+			</p>
+		</div>
+
+		<div id="about">
+			<p class="paragraph1">
+				<a href="http://duongha.info/about">About</a><br>
+			</p>
+		</div>
+
+		<div id="blog">
+			<p class="paragraph1">
+				<a href="http://duongha.tumblr.com/">Blog</a>
+			</p>
+		</div>
 
 	<div id="content">
 		<p class="paragraph1">
+
 			Oakland Asian Cultural Center<br>
 			2015<br>
 			<br>
@@ -110,9 +128,13 @@
 			<br>
 			<div data-configid="0/14614580" style="width:700px; height:425px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script><br><br><br>
 		</p>
+
+		<div id="footer">
+			<h1>
+				<a href="http://duongha.info/">< HOME</a>
+			</h1>
+		</div>
 	</div>
-	<div id="footer"></div>
-</div>
 
 <body>
 </body>
